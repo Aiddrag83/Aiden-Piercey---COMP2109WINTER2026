@@ -1,4 +1,17 @@
-/* Stylesheet for Assignment-1 */
+/*
+Theme Name: Assignment-1 Theme
+Theme URI: http://example.com/assignment-1-theme
+Author: Your Name
+Author URI: http://example.com
+Description: A custom WordPress theme based on Assignment-1 styles
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: assignment-1-theme
+Tags: custom-background, custom-header, custom-menu, responsive-layout
+*/
+
+/* === Stylesheet for Assignment-1 === */
 
 body {
     margin: 0;
