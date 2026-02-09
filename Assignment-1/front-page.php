@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <section style="text-align:center; margin-bottom:80px;">
-    <h1 style="font-size:3.5rem;">Aiden</h1>
+    <h1 style="font-size:3.5rem;">Aiden Piercey - Assignment-1</h1>
     <p style="color:#f5d58c; letter-spacing:2px;">
         Light • Memory • Connection
     </p>
