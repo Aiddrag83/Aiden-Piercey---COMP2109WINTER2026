@@ -9,28 +9,29 @@
 
 <h2>The Story I’m Telling</h2>
 <p>
-I’m a creative editor and designer focused on emotion, pacing, and atmosphere.
-Through film editing and web development, I aim to create meaningful digital
-experiences that connect with people.
+I'm a creative editor and designer with a focus on emotions, pace, and mood. 
+I think I can make a difference in the online world, especially in film editing and web development.
 </p>
 
 <h2>Crafting Light From Code</h2>
 <p>
-Throughout this program, I’ve learned how to build WordPress themes from scratch
-using HTML, CSS, PHP, and dynamic content. I enjoy combining structure with
+I have learned how to create WordPress theme from scratch all along this programme.
+Using HTML, CSS, PHP, and content dynamically. I enjoy combining structure with
 creativity to shape immersive designs.
 </p>
 
 <h2>Moments That Matter</h2>
 <p>
-I focus on designing experiences that guide emotion through contrast, rhythm,
-and visual storytelling—skills developed through editing and creative media.
+I concentrate on the creation of experiences that work with emotions, using contrast, rhythm,
+and visual storytelling skills that are gained from editing and creative media. 
+Next, I intend to keep improving my skills in creativity and technology after graduating 
+in the field of web development, editing, and/or design.
 </p>
 
 <h2>Where the Path Leads</h2>
 <p>
-After graduation, I plan to continue developing my creative and technical skills,
-pursuing opportunities in web development, editing, or interactive design.
+I intend to keep improving my skills in creativity and technology after graduating 
+in the field of web development, editing, and/or design.
 </p>
 
 <h2>Recent Posts</h2>
