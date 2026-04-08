@@ -1,0 +1,161 @@
+/*
+Theme Name: Brasshaven Theme
+Theme URI: http://example.com/brasshaven
+Author: Aiden Piercey
+Author URI: http://example.com
+Description: A steampunk-inspired e-commerce theme for Brasshaven Industries.
+Version: 1.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: brasshaven
+Tags: custom-background, custom-logo, custom-menu, e-commerce, WooCommerce
+*/
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #1c1c1c, #2a2a2a, #1e1e1e); /* dark steampunk gradient */
+    color: #f0e6d2; /* parchment-like text */
+    line-height: 1.6;
+}
+
+/* Force all main containers to transparent so body background shows */
+.site, 
+.site-content, 
+#content, 
+.content-area, 
+.woocommerce-page .content-area, 
+.woocommerce #primary, 
+.wp-block, 
+.wp-block-group, 
+.wp-block-cover {
+    background-color: transparent !important;
+    color: #f0e6d2 !important;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #111 0%, #222 100%);
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #6b4f2a;
+}
+
+.logo {
+    color: #c9a34e;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 25px;
+    font-weight: 600;
+    color: #c9a34e;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #fff1c9;
+}
+
+/* FOOTER */
+footer {
+    background: #111;
+    color: #c9a34e;
+    text-align: center;
+    padding: 30px 20px;
+    border-top: 2px solid #6b4f2a;
+}
+
+/* BUTTONS */
+button, .button {
+    background: #c9a34e;
+    color: #111;
+    border: none;
+    padding: 12px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover, .button:hover {
+    background: #fff1c9;
+    transform: scale(1.05);
+}
+
+/* HEADINGS */
+h1, h2, h3 {
+    color: #c9a34e;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+h2 {
+    border-left: 4px solid #c9a34e;
+    padding-left: 10px;
+}
+
+/* POSTS */
+.post, 
+.hentry {
+    background-color: #2a2a2a; /* slightly lighter than main background */
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(201, 163, 78, 0.3);
+}
+
+/* PRODUCT CARDS */
+.products .product {
+    background-color: #2a2a2a;
+    border: 1px solid #6b4f2a;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.products .product:hover {
+    box-shadow: 0 0 20px #c9a34e;
+    transform: translateY(-5px);
+}
+
+.products .price {
+    color: #c9a34e;
+    font-weight: bold;
+}
+
+/* FEATURED PRODUCT */
+.products .featured {
+    border: 2px solid #c9a34e;
+    box-shadow: 0 0 20px #c9a34e;
+    background-color: #2a2a2a;
+    padding: 15px;
+    margin-bottom: 40px;
+}
+
+/* SECTIONS */
+section {
+    padding: 60px 40px;
+    border-bottom: 1px solid #6b4f2a;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav a {
+        margin-left: 0;
+        margin-right: 15px;
+    }
+
+    section {
+        padding: 40px 20px;
+    }
+}
